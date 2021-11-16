@@ -1,16 +1,10 @@
-# Stencil App Starter
+# Dog Lovers United - Stencil.js Based App
 
-Stencil is a compiler for building fast web apps using Web Components.
-
-Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool.  Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec.
-
-Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
-
-Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
+## Description
+Your one-stop shop for uplifting dog images! 
 
 ## Getting Started
-
-To start a new project using Stencil, clone this repo to a new directory:
+To start the Dog Lovers United App using Stencil, clone this repo to a new directory:
 
 ```bash
 npm init stencil app
@@ -27,15 +21,16 @@ To build the app for production, run:
 ```bash
 npm run build
 ```
+Once the app is started and running in browser, the app can be used as follows:
+If images of any breed of dog will do, select the random breed button. If you want to see a specific breed of dog toggle the breeds dropdown, select the breed from the dropdown menu, and then toggle it off by pressing the breeds button again. To cycle through images of the selected breed, click on the image.
 
-To run the unit tests once, run:
+# Authors and Acknowledgment
+Mackenzie Fahey
 
-```
-npm test
-```
+mmfahey Programming
 
-To run the unit tests and watch for file changes during development, run:
+mmfahey92@gmail.com
 
-```
-npm run test.watch
-```
+https://mmfahey-portfolio-app.herokuapp.com/
+
+https://github.com/mmfahey
