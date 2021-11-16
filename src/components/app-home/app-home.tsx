@@ -75,7 +75,7 @@ export class AppHome {
         <img src={`${this.image}`} onClick={ (ev) => this.nextImage(ev)}/>
         <p>
           Welcome to Dog Lovers Unite, your one-stop shop for uplifting dog images. If images of any breed of dog will do, select the random breed button. 
-          If you want to see a specific breed of dog toggle the breeds dropdown, select the breed from the dropdown menu, and then toggle it off by pressing 
+          If you want to see a specific breed of dog, toggle the breeds dropdown, select the breed from the dropdown menu, and then toggle it off by pressing 
           the breeds button again. To cycle through images of the selected breed, click on the image.
         </p>
       </div>
